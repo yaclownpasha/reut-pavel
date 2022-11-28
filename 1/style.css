@@ -1,0 +1,237 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+.phone-1 {
+    position: absolute;
+    z-index: 1;
+}
+.phone-2 {
+    z-index: 3;
+   position: absolute;
+    margin-top: 45px;
+    margin-left: 26px;
+
+}
+.phone-3 {
+    z-index: 2;
+  position: absolute;
+}
+.statement {
+    width: 562px;
+    justify-self: center;
+
+}
+.statement div {
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #222222;
+}
+.statement b {
+    font-size: 32px;
+line-height: 36px;
+}
+.statement span {
+    font-size: 16px;
+line-height: 24px;
+}
+header {
+    margin-top: 100px;
+    height: 499px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+.phone {
+    z-index: -1;
+    position: relative;
+    justify-self: center;
+    margin-right: 450px;
+}
+main {
+background-color: #222222;
+padding: 100px 160px 100px 160px;
+}
+.fea {
+    font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.last {
+    font-size: 32px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.phone-6 {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 120px;
+}
+.main-inf {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-photo {
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    padding: 40px 140px 0px 140px;
+    border-radius: 10px;
+}
+.textik {
+    margin-left: -140px;
+    position: absolute;
+    margin-top: 270px ;
+}
+.textik div {
+    position: absolute;
+    font-size: 24px;
+    width: 177px;
+    padding: 48px 165px 20px 166px;
+    background-color: #f2f2f2;
+    color: #0278ED;
+}
+.textik span {
+    position: absolute;
+    font-size: 15px;
+line-height: 22px;
+    background-color: #f2f2f2;
+    width: 286px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 11px 110px 40px 112px;
+    border-radius: 10px;
+}
+.textik-focus span {
+    position: absolute;
+    font-size: 15px;
+line-height: 22px;
+    background-color: #f2f2f2;
+    width: 286px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 11px 110px 40px 112px;
+    border-radius: 10px;
+}
+.textik-varied span {
+    position: absolute;
+    font-size: 15px;
+line-height: 22px;
+    background-color: #f2f2f2;
+    width: 286px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 11px 110px 40px 112px;
+    border-radius: 10px;
+}
+.textik-lists span {
+    position: absolute;
+    font-size: 15px;
+line-height: 22px;
+    background-color: #f2f2f2;
+    width: 286px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 11px 110px 40px 112px;
+    border-radius: 10px;
+}
+.textik-lists {
+    margin-left: -140px;
+    position: absolute;
+    margin-top: 370px ;
+}
+.textik-lists div {
+    position: absolute;
+    font-size: 24px;
+    width: 177px;
+    padding: 48px 165px 20px 166px;
+    background-color: #f2f2f2;
+    color: #FF9209;
+    text-align: center;
+}
+.textik-varied {
+    margin-left: -140px;
+    position: absolute;
+    margin-top: 270px ;
+}
+.textik-varied div {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    width: 177px;
+    padding: 48px 165px 20px 166px;
+    background-color: #f2f2f2;
+    color: #FF9209;;
+}
+.textik-focus {
+    margin-left: -140px;
+    position: absolute;
+    margin-top: 270px ;
+}
+.textik-focus div {
+    position: absolute;
+    font-size: 24px;
+    width: 177px;
+    padding: 48px 165px 20px 166px;
+    background-color: #f2f2f2;
+    color: #B25DF8;
+    text-align: center;
+} 
+footer {
+    padding: 230px 230px 160px 230px;
+    background-color: #f2f2f2;
+    text-align: center;
+}  
+footer span {
+    
+    font-size: 16px;
+}
+footer div {
+    font-size: 35px;
+    text-align: center;
+}
+@media screen and (max-width: 1450px) {
+    .main-inf {
+        display: grid;
+    }
+    
+}
+@media screen and (max-width: 1250px) {
+    header {
+        grid-template-columns: 0 0;
+        grid-template-rows: 1fr 1fr ;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .phone {
+        z-index: -1;
+        position: relative;
+        margin-top: 300px;
+    margin-right: 380px;
+    }
+    .statement {
+        position: relative;
+            width: 562px;
+            justify-self: center;
+            margin-top: 50px;
+        
+    }
+    main {
+        margin-top: 345px;
+    }
+   
+    
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}

@@ -1,0 +1,950 @@
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(C:\Users\Professional\Desktop\Fonts); 
+}
+html,body{
+    overflow-x: hidden
+    
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.test1 {
+ display: flex;
+ justify-content: space-between;
+ margin-right: 505px;
+    
+}
+
+.navig {
+    display: flex;
+}
+.text {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 36px 13px 35px 13px;
+}
+.text1 {
+text-transform: uppercase;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.white-text {
+    padding: 31px 31px 32px 20px;
+font-size: large;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.differnt_venture {
+padding: 34px 13px 34px 0px;
+margin-left: 20%;
+}
+.photo {
+    width: 40h;
+    height: 523px;
+}
+
+.menu {
+    color: #979797;
+    padding: 34px 52px 30px 20px;
+}
+.the-first_button {
+    padding: 8px;
+    border-radius: 10px;
+    border: solid 1px #979797;
+    background-color: #fff;
+    margin-right: 11px;
+        margin-top: 112px;
+}
+.title {
+    margin-top: 108px;
+    margin-left: 100px;
+
+}
+.invest {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 78px;
+letter-spacing: 1.8px;
+color: #000000;
+width: 100%;
+}
+
+.rectangle {
+    width: 1px;
+    height: 704px;
+    background: #979797;
+     border-radius: 0px;
+     margin-left: 733px;
+}
+.purpose {
+    margin-top: 61px;
+    margin-left: 109px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 3.19px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.article-1 {
+    display: flex;
+   padding: 241px 105px 160px 105px;
+}
+.article-1 b {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 78px;
+ width: 545px;
+    letter-spacing: 1.8px;
+ 
+    color: #000000;
+}
+.article-1 span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+width: 545px;
+}
+.hyper {
+    display: flex;
+    position: relative;
+    bottom: 65px;
+}
+.down {
+    width: 555px;
+    margin-left: 180px;
+}
+.portfolio-text {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 3.19px;
+text-transform: uppercase;
+color: #000000;
+position: relative;
+top: 30px;
+margin-left: 105px;
+}
+.first  {
+    position: relative;
+    display: flex;
+    top: 50px;
+
+}
+.portfolio-title {
+    position: relative;
+    width: 13vw;
+    height: 150px;
+    text-align: center;
+    left: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.second {
+    position: relative;
+    border-spacing: 0px;
+border-collapse: collapse;
+    
+}
+
+td {
+    position: relative;
+    height: 90px;
+    width: 359px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+text-align: center;
+color: #000000;
+border-bottom: solid 1px #979797;
+
+}
+.border-table {
+    border-right: solid 1px #979797;
+}
+.scroll {
+    position: relative;
+   padding: 12px;
+   padding-left: 20px;
+   padding-right: 20px;
+    border-radius: 20px;
+    border: solid 1px #979797;
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+    color: #979797;
+    left: 323px;
+    margin-bottom: 35px;
+}
+.group {
+    width: 556px;
+    margin-left: 111px;
+}
+.ps {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+margin-top: 50px;
+}
+.philosophy {
+   display: flex;
+ }
+ .ask {
+    display: flex;
+
+ }
+ .phisophy-title  {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 3.19px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 60px;
+margin-left: 111px;
+ }
+.article-2  {
+    position: relative;
+height: 41px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 40px;
+/* identical to box height, or 155% */
+margin-top: 100px;
+margin-left: 111px;
+color: #000000;
+}
+.article-3  {
+    position: relative;
+height: 41px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* identical to box height, or 155% */
+margin-top: 100px;
+margin-left: 111px;
+color: #000000;
+}
+.article-4  {
+    position: relative;
+    height: 41px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 40px;
+/* identical to box height, or 155% */
+margin-top: 104px;
+margin-left: 111px; 
+color: #000000;
+}
+.Foxes {
+    margin-left: 190px;
+    margin-top: 109px;
+}
+.Foxes-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #000000; 
+}
+.Foxes-footer {
+    display: flex;
+    position: relative;
+    top: 39px;
+    left: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 21px;
+color: #979797;
+}
+.Foxes-information {
+    position: relative;
+    top: 150px;
+    width: 550px;
+    padding: 0;
+}
+.Foxes-information  p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;        
+}
+.part10 {
+    margin-bottom: 39px;
+}
+.part11 {
+    margin-bottom: 23px;
+}
+.part12 {
+    margin-bottom: 19px;
+}
+.part13 {
+    margin-bottom: 16px;
+}
+.part14 {
+    margin-bottom: 16px;
+}
+.part15 {
+    margin-bottom: 16px;
+}
+.part16 {
+    margin-bottom: 16px;
+}
+.start-people {
+margin-top: 200px;
+}
+.more {
+    position: relative;
+text-decoration: none;
+color: #979797;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+top: 60px;
+color: #979797;
+}
+.people-title {
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 3.19px;
+text-transform: uppercase;
+color: #000000;
+margin-left: 111px;
+margin-bottom: 110px;
+}
+.people-photo {
+    align-items: stretch;
+    margin-left: 105px;
+}
+
+.people-text {
+    position: relative;
+
+    display: inline-block;
+    width: 328px;
+    height: 322px;
+
+}
+.people-text img {
+    display: block;
+  margin-bottom: 15px;
+}
+.last {
+    margin-top: 90px;
+}
+.description {
+margin-top: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 24px;
+color: #676767;
+width: 517px;
+}
+.company {
+    
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+color: #676767;
+}
+footer {
+    margin-top: 80px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+.hyperconnect {
+    width: 10vh;
+    margin-left: 31px;
+}
+
+
+
+#menu-btn2 {
+    font-size: larger;
+  padding: 35px 5px 15px 10px; 
+}
+@media screen and (min-width: 570px) and (max-width: 1000px) { 
+    .invest {
+        font-size: 30px;
+        width: 200px;
+        line-height: 50px;      
+    }
+    
+    .photo {
+        width: 60vh;
+        height: 300px;
+    }
+    .title {
+        margin-top: 10px;
+    }
+    .Foxes-information p {
+   width: 10px;
+   font-size: 15px;
+ }
+.test1 {
+    margin-right: 200px;
+}
+
+.menu {
+    color: #979797;
+    padding: 34px 52px 30px 10px;
+}
+.text {
+    font-size: 15px;
+}
+.white-text {
+    font-size: 15px;
+}
+.differnt_venture {
+    font-size: 15px;
+    padding-left: 0px;
+    margin-left: 13%;
+}
+.Foxes {
+    margin-left: 200px
+}
+.Foxes-information {
+    width: 250px;
+    margin-left: 0px;
+}
+.article-1 {
+    padding: 30px 25px 30px 20px;
+}
+.hyperconnect {
+    margin-left: 0px;
+}
+.philosophy-information {
+    width: 350px;
+}
+.article-2 {
+font-size: 20px;
+line-height: 25px;
+margin-top: 134px;
+}
+.article-3 {
+font-size: 21px;
+line-height: 25px;
+margin-top: 204px;
+}
+.article-4 {
+font-size: 21px;
+line-height: 25px;
+margin-top: 200px;
+}
+.part10 {
+    margin-top: -50px;
+}
+
+ }
+.Foxes-information p {
+   width: 250px;
+   font-size: 15px;
+ }
+.test1 {
+    margin-right: 200px;
+}
+.menu {
+    color: #979797;
+    padding: 34px 52px 30px 10px;
+}
+.text {
+    font-size: 15px;
+}
+.white-text {
+    font-size: 15px;
+}
+.portfolio-title {
+    width: 16vw;
+}
+.meni {
+    position: fixed;
+    transform: translateX(-100%); 
+}
+
+li {
+  list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.meni:active {
+	transform: translateX(0);
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1316px) {
+    .invest {
+        font-size: 50px;
+        width: 350px;
+        line-height: 50px;      
+    }
+    .photo {
+        width: 74vh;
+        height: 400px;
+    }
+    
+    .test1 {
+        margin-right: 200px;
+    }
+    .differnt_venture {
+        padding-left: 0px;
+        margin-left: 19%;
+    }
+    .article-1 {
+        padding: 100px 75px 80px 51px;
+    }
+    .people-photo {
+        margin-left: 190px;
+    }
+    .Foxes-information p {
+        width: 450px;
+        font-size: 12px;
+    }
+    .philosophy-information {
+        width: 500px;
+    }
+    .Foxes {
+        margin-left: 150px;
+    }
+    .Foxes-information  {
+        width: 400px;
+    }
+    
+
+}
+@media screen and (min-width: 1360px) and (max-width: 1660px) {
+    .invest {
+        font-size: 80px;
+        width: 450px;
+        line-height: 120px;      
+    }
+    .differnt_venture {
+        padding-left: 0px;
+        margin-left: 20%;
+    }
+    .article-1 {
+        padding: 120px 100px 100px 81px;
+    }
+    .Foxes-information p {
+        width: 550px;
+        font-size: 15px;
+     }
+    
+}
+@media screen and (min-width: 1660px)    {
+    .text {
+        font-size: 22px;
+    }
+    .white-text {
+        font-size: 22px;
+    }
+    .differnt_venture {
+        font-size: 22px;
+        padding-left: 0px;
+        margin-left: 23%;
+    }
+    .photo {
+        width: 900px;
+        height: 550px;
+    }
+    .invest {
+        font-size: 120px;
+        width: 750px;
+        line-height: 120px;      
+    }
+    .purpose {
+        font-size: 27px;
+    }
+    .article-1 b {
+        font-size: 75px;
+        width: 750px;
+    }
+    .article-1 span {
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .down {
+        width: 855px;
+    }
+    .portfolio-text {
+        font-size: 26px;
+    }
+    td {
+        font-size: 26px;
+    }
+    .portfolio-title {
+        font-size: 26px;
+    }
+    
+    .scroll {
+        padding: 25px 45px 25px 45px;
+        font-size: 26px;
+        border-radius: 45px;
+    }
+    
+    .hyperconnect img {
+        width: 300px;
+        height: 30px;
+    }
+    .phisophy-title {
+        font-size: 28px;
+    }
+    .article-2 {
+        font-size: 37px;
+    }
+    .article-3 {
+        font-size: 31px;
+    }
+    .article-4 {
+        font-size: 33px;
+    }
+    .Foxes {
+        margin-left: 215px;
+    }
+    .Foxes-footer {
+        font-size: 20px;
+    }
+    .Foxes-title {
+        font-size: 39px;
+    }
+    .Foxes-information p {
+        font-size: 21px;
+        width: 710px;
+    }
+    .more {
+        font-size: 20px;
+    }
+    .people-title {
+        font-size: 28px;
+    }
+    .description {
+        font-size: 15px;
+        width: 550px;
+        line-height: 27px;
+        
+    }
+    .company {
+        font-size: 15px;
+    }
+
+}
+@media screen and (min-width: 2000px) and (max-width: 2660px) {
+    .invest {
+        font-size: 140px;
+        width: 800px;
+        line-height: 120px;      
+    }
+
+}
+@media (max-width:575px) and (min-width:300px) {
+   
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+    
+    .photo {
+        width: 1px;
+        height: 1px;
+    }
+    .navig{
+        height: 50px;
+    
+    }
+    #menu {
+        font-size: 15px;
+      padding: 18px 5px 15px 0px; 
+    }
+    
+    .test1 {
+ align-items: center;
+        
+    }
+    .text {
+        padding: 16px 15px 0px 15px;
+    }
+    .text1 {
+        font-size: 12px;
+    }
+    .differnt_venture {
+        padding: 17px 0px 20px 14px;
+     margin-left: auto;
+     margin-right: 20px;
+    }
+    .white-text {
+        padding:  14px 10px 10px 10px;
+    }
+    .test1 {
+        display: block;
+        margin-right: 0;
+    }
+    .invest {
+        font-size: 30px;
+        display: inline-block;
+        width: 100%;
+    }
+    .title {
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .the-first_button {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .main-information{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .article-1 {
+        display: inline;
+        padding-left: 0px;
+        text-align: center;
+        
+    }
+    .article-1 b{
+        font-size: 20px;
+        line-height: 0px;
+        width: auto;
+        text-align: center; 
+        margin-left: -60px;
+        
+    }
+    .down {
+        margin: 10px 0px 10px 0px;
+        margin-left: 25px;
+        width: 90%;
+        text-align: center;
+    }
+    #pupu {
+        margin-left: 50px;
+    }
+    #kuku {
+        margin-left: -50px;
+    }
+    .purpose {
+        margin-left: 30px;
+    }
+    .portfolio-title {
+        width: 100%;
+    }
+    .hyper {
+        display: inline;
+    }
+    .group {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        width: auto;
+    }
+    .group .ps {
+        margin-left: 0px;
+    }
+    .scroll {
+        text-align: center;
+        left: 0px;
+        margin-left: 40%;  
+    }
+    .philosophy {
+      display: inline;
+      width: auto;
+    }
+    .article-2 {
+        text-align: center;
+margin-left: 0px;
+    }
+    .article-3 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .article-4 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .ask {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Foxes {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .Foxes-information {
+        margin-top: 50px;
+        top: 0px;
+        text-align: center;
+        width: auto;
+    }
+    .Foxes-information p {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .Foxes-footer {
+        margin-left: 10%;
+    }
+    .description {
+        width: auto;
+    }
+  .people-photo {
+margin-left: 25%;
+  }
+  .hyperconnect {
+    margin-left: 20%;
+  }
+  .menu-btn {
+    margin-top: -20px;
+    left: 0;
+}
+.menu {
+    width: -%;
+}
+.menu li {
+	list-style-type: none;
+    margin: 20px;
+    margin-top: 40px;
+    color: #fff;
+}
+.last-rectangle {
+    margin-top: 20px;
+}
+}
+
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:0;
+	overflow: hidden;
+    padding-top: 90px;
+    margin-right: 5px;
+
+}
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+
+.menu-btn span {
+    margin-top:0px;
+	width: 30px;
+	height: 2px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #222222;
+	transition: all 0.5s;
+}
+
+.menu.active {
+	transform: translateX(0);
+}
+
+.menu li {
+	list-style-type: none;
+    margin: 20px;
+    margin-top: 40px;
+    color: #fff;
+}
+li a {
+    color: #fff;
+    opacity: 1;
+    text-transform: uppercase;
+}
+html {
+    scroll-behavior: smooth;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+
